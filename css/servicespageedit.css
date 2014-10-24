@@ -1,0 +1,226 @@
+html {
+background-image: url("/pictures/nighsky1051514.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+height:2120px;
+opacity: .84;
+}
+
+
+#header {
+position:relative;
+top:0;
+width: 100%;
+height: 35px;
+border: grey dashed 3px;
+border-radius: 28px;
+text-align: center;
+background-color: white;
+}
+
+#header h1{
+position:relative;
+float:left;
+top:-8px;
+padding-left:10px;
+color: black;
+font-family: cambria;
+font-size: 20px;
+}
+
+#header h1:hover{
+color:gold;
+}
+
+#header li{
+position:relative;
+float:right;
+top:5px;
+display: inline-block;
+list-style-type: none;
+font-family: MingLiU;
+text-decoration: none;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#header li:hover{
+font-family: comic sans ms;
+}
+
+#greeting {
+position: relative;
+height: 300px;
+width:60%;
+margin:auto;
+top:100px;
+text-align: center;
+background-color: white;
+opacity: .92;
+}
+
+#greeting h2{
+color: black;
+font-weight: bold;
+font-family: cambria;
+font-size:24px;
+}
+
+#about {
+position: relative;
+top: 20px;
+width: 100%;
+height: 100px;
+color: white;
+}
+
+/* services */
+
+#servicesTable {
+text-align: center;
+margin-top:15px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#placeHolder {
+display:inline-block;
+text-align:center;
+height: 50px;
+width: 50px;
+}
+
+#services {
+text-align:center;
+height: 400px;
+width: 400px;
+padding:10px;
+background-color: white;
+border-radius:20px;
+border: solid 3px rgb(145,242,152);
+}
+
+#services2 {
+text-align: center;
+height: 400px;
+width: 400px;
+background-color: white;
+border-radius:20px;
+padding:10px;
+border: solid 3px rgb(150,233,237);
+}
+
+#services3 {
+text-align:center;
+height: 400px;
+width: 400px;
+background-color: white;
+border-radius:20px;
+padding:10px;
+border: solid 3px rgb(239,148,239);
+}
+
+#services4 {
+text-align:center;
+height: 400px;
+width: 400px;
+background-color: white;
+border-radius:20px;
+padding:10px;
+border: solid 3px rgb(251,248,136);
+}
+
+
+#services h1 {
+color: black;
+font-family: cambria;
+font-size: 24px;
+}
+
+#clientsTable {
+position:relative;
+margin-left:auto;
+margin-right:auto;
+padding: 10px;
+top: 70px;
+width:70%;
+text-align: center;
+color: white;
+border: 4px solid white;
+border-collapse: collapse;
+}
+
+#clientsTable td {
+padding:5px;
+}
+
+#clientsTable caption{
+font-family: cambria;
+font-size:18px;
+font-weight: bold;
+color: white;
+}
+
+#projectsTable {
+position:relative;
+margin-left:auto;
+margin-right:auto;
+top:140px;
+padding: 10px;
+width:70%;
+text-align: center;
+color: white;
+border: 4px solid white;
+border-collapse: collapse;
+}
+
+#projectsTable caption{
+font-family: cambria;
+font-size:18px;
+font-weight: bold;
+color: white;
+}
+
+#clientsTable a{
+color:white;
+}
+
+#projectsTable a{
+color:white;
+}
+
+#testimonials {
+position: relative;
+top: 220px;
+color: white;
+}
+
+#testimonials h2 {
+text-align:center;
+font-family: ms gothic;
+}
+
+.footer {
+position:relative;
+bottom:-405px;
+width:100%;
+height:2px;
+text-align:center;
+
+}
+
+.footer li{
+display: inline;
+list-style-type: none;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.footer li a{
+color: white;
+text-decoration:none;
+}
+
+.footer li a:hover{
+color:gold;
+}
