@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="/css/nchhomepageedit.css">
+<meta charset="UTF-8"> 
+<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+
+<script>
+var quotes=["do or do not, that is a question","get to work","laziness bad!","become awesome","why do we exist?","go make stuff!","boredom is bad", "eat your fruits and vegetables everyday!","wow, what a cool page"];
+var pickQuote = function() {
+var selectQuote = quotes[Math.floor(Math.random()*quotes.length)];
+return selectQuote;
+};
+</script>
+
+<title> syncopika's webpage </title>
+</head>
+
+<body>
+
+<div id="header">
+<h1> <a href="index.html"> <img src="pictures/hk.png">------- welcome to Nicholas C. Hung's world ------- <img src="pictures/tw.png"></a></h1>
+</div>
+
+<div id="navbar">
+<ul>
+<li><a href="aboutpage.html"> about </a></li>
+<li><a href="nchservices.html"> services </a></li> 
+<li><a href="nchCV.html"> CV </a></li>
+<li><a href="nchcontactform.html"> blog </a></li>
+<li><a href="nchcontactform.html"> contact </a></li>
+<li><a href="nchfunstuff.html"> fun stuff </a></li>
+</ul>
+</div>
+
+
+<!-- <span  onclick="alert('wow! cool page!')";><img src="" style="position:absolute; top:14%; left:14%; z-index:2;"> </span> -->
+
+
+<div class="newsBox">
+<h1> hello world! 世界你好! new news goes here! </h1>
+<p>10/23/14 4:41 pm, est - added some cool feature on the front page! it's random quotes! ^_^ </p>
+<p style="font-size: 10px; float:right; bottom:15px; position:relative;"> <a href="ncharchive.html"> click here for old news </a></p>
+</div>
+
+<div class="quickMe">
+<h2> quick info about me </h2>
+<p>likes: music, composing/arranging/transcribing, trumpet, ä¸­æ–‡,ä¸­åœ‹çš„æ–‡åŒ–,æ—¥æœ¬èªž,æ—¥æœ¬ã®æ–‡åŒ–, drawing/animating, technology?, being productive</p>
+<p>dislikes: not being productive, being useless, college, biology</p>
+<p> here's what I look like: </p>
+<img id='top' src="pictures/selfportrait1.2.png" alt="that's me!" style="width:150px;height:190px"> <p style="font-size: 10px;"> woah that's me! </p>
+<img id='bottom' src="pictures/portrait1edit.png" alt="that's me again!" style="width:130px;height:170px;"> 
+</div>    
+
+<!-- this is invisible -->
+<div class="slider">
+<h2> who is Nicholas C. Hung? </h2>
+<p> well, you've come to the right place! </p>
+<br>
+<p><b>click on <a href="">about </a> to find out more! </b></p>
+<p> tee hee hee </p>
+</div>
+
+<div class= "footer">
+<ul>
+<li><a href="aboutpage.html"> about </a></li>
+<li><a href="nchservices.html"> services </a></li> 
+<li><a href="nchCV.html"> cv </a></li>
+<li><a href="nchcontactform.html"> blog </a></li>
+<li><a href="nchcontactform.html"> contact </a></li>
+<li><a href="nchfunstuff.html"> fun stuff </a></li>
+</ul>
+<p style="float:right; font-family:cambria; font-size: 10px; color: white;">&copy; n.c.h works 2014 </p>
+</div>
+
+<!-- fun random quotes -->
+
+<div id="quotes">
+<p style="font-family:gothic ms;font-size:20px;color:white;text-align:center;"><em><b><script> document.write(pickQuote()) </script></b></em></p>
+</div>
+
+<div id="quotes2">
+<p style="font-family:gothic ms;font-size:20px;color:white;text-align:center;"><em><b><script> document.write(pickQuote()) </script></b></em></p>
+</div>
+
+
+</body>
+</html>
