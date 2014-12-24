@@ -3,13 +3,12 @@ background-image: url("/pictures/nighsky1051514.png");
 background-size: 100% 100%;
 background-repeat: no-repeat;
 height:1220px;
-opacity: .84;
 }
 
 #quotes {
 position:absolute;
 top:200px;
-right:25px;
+right:50px;
 width: 120px;
 height:140px;
 }
@@ -17,7 +16,7 @@ height:140px;
 #quotes2 {
 position:absolute;
 top:200px;
-left:25px;
+left:50px;
 width: 120px;
 height:140px;
 }
@@ -173,6 +172,7 @@ box-shadow: 0px 5px 5px 5px #888888;
 z-index:-2;
 }
 
+
 .quickMe img {
   -webkit-transition: opacity 2s ease-in-out;
   -moz-transition: opacity 2s ease-in-out;
@@ -180,9 +180,11 @@ z-index:-2;
   transition: opacity 2s ease-in-out;
 }
 
+/* I DIASBLED THE HOVER FEATURE
 img#top:hover {
   opacity:0;
 }
+*/
 
 img#top {
 border-left:10px white solid;
@@ -216,3 +218,4 @@ padding-right: 10px;
 .footer li a{
 color: white;
 }
+
