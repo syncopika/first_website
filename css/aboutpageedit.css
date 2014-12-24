@@ -2,8 +2,8 @@ html {
 background-image: url("/pictures/nighsky1051514.png");
 background-size: 100% 100%;
 background-repeat: no-repeat;
-height: 1220px;
-opacity: .84;
+height: 1250px;
+opacity: .9;
 }
 
 /*
@@ -56,11 +56,10 @@ font-family: comic sans ms;
 
 #greeting {
 position: relative;
-height: 520px;
+height: 580px;
 width:60%;
 margin:auto;
-top:380px;
-padding:2px;
+top:310px;
 text-align: center;
 background-color: white;
 opacity: .92;
@@ -89,7 +88,7 @@ color: white;
 
 #footer {
 position:relative;
-bottom:-460px;
+bottom:-440px;
 width: 100%;
 height:5px;
 text-align:center;
