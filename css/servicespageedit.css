@@ -2,8 +2,8 @@ html {
 background-image: url("/pictures/nighsky1051514.png");
 background-size: 100% 100%;
 background-repeat: no-repeat;
-height:2120px;
-opacity: .84;
+overflow:auto;
+/*height:2120px;*/
 }
 
 
@@ -81,13 +81,15 @@ text-align: center;
 margin-top:15px;
 margin-left:auto;
 margin-right:auto;
+border-collapse:separate;
+border-color:transparent;
+border-spacing: 25px;
 }
 
 #placeHolder {
-display:inline-block;
 text-align:center;
-height: 50px;
-width: 50px;
+height: 2px;
+width: 2px;
 }
 
 #services {
@@ -137,35 +139,36 @@ font-family: cambria;
 font-size: 24px;
 }
 
+
+
 #clientsTable {
-position:relative;
+/*position:relative;*/
+margin-top:50px;
 margin-left:auto;
 margin-right:auto;
-padding: 10px;
-top: 70px;
-width:70%;
+padding: 2px;
+/*top: 70px;*/
+width:90%;
 text-align: center;
 color: white;
 border: 4px solid white;
 border-collapse: collapse;
 }
 
-#clientsTable td {
-padding:5px;
-}
 
 #clientsTable caption{
 font-family: cambria;
-font-size:18px;
+font-size:28px;
 font-weight: bold;
 color: white;
 }
 
 #projectsTable {
-position:relative;
+/*position:relative;*/
+margin-top:50px;
 margin-left:auto;
 margin-right:auto;
-top:140px;
+/*top:140px;*/
 padding: 10px;
 width:70%;
 text-align: center;
@@ -190,14 +193,23 @@ color:white;
 }
 
 #testimonials {
-position: relative;
-top: 220px;
+/*position: relative;*/
+/*top: 220px;*/
+margin-top:90px;
+margin-bottom:90px;
 color: white;
+margin-left:10px;
+margin-right:10px;
 }
 
 #testimonials h2 {
 text-align:center;
 font-family: ms gothic;
+font-size: 28px;
+}
+
+#equipment p, h2{
+color:white;
 }
 
 .footer {
